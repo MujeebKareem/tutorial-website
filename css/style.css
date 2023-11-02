@@ -1,0 +1,24 @@
+button {
+    background: #333;
+    color: white;
+    font-size: 200%;
+    border:solid red;
+    position: relative;
+    top: 0;
+    padding: 0.5%;
+    font-family: roboto, sanserif;
+    animation: move 5s alternate infinite;
+}
+
+@keyframes move {
+    from {
+        top: 0;
+    }
+    to {
+        top: 50vh;
+    }
+}
+
+body {
+    background: black;
+}

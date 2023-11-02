@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+    background: orange;
+    color: red;
+    font-size: 200%;
+    border: solid white 3px;
+    position: relative;
+    top: 0;
+    padding: 0.5%;
+    font-family: roboto, sanserif;
+    animation: move 5s alternate infinite;
+}
+
+@keyframes move {
+    from {
+        top: 0;
+    }
+    to {
+        top: 50vh;
+    }
+    from {
+        left: 10;
+    }
+    to {
+        left: 50vh;
+    }
+    from {
+        color: red;
+    }
+    to {
+        color: orange;
+    }
+}
+
+body {
+    background: black;
+}
+    </style>
+</head>
+<body>
+    <button>button</button>
+</body>
+</html>
